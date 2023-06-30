@@ -12,7 +12,7 @@ This GitHub repository aims to identify whether a given pair of handwritten text
 3. [Inference Model](#inference-model)
 4. [Model Checkpoints](#model-checkpoints)
 5. [Codebase](#codebase)
-6.  [Reference](#reference)
+6. [Reference](#reference)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -50,6 +50,8 @@ Pre-trained models can be found in the following Google Drive folder:
 
 If you want to use the pre-trained model, download the models from the shared Google Drive folder and save them to your local location. Additionally, update the path location of the model in the code accordingly.
 
+In this project, we employed a Siamese Network for feature extraction, and these features were subsequently utilized by a KNN model for classification. The training_model.py and inference_model.py solely employ the KNN approach. However, we also explored alternative classification models such as SVC, AdaBoost, and ensemble methods. If you wish to examine predictions using these models, simply copy and paste their respective code snippets from the Codebase.ipynb file.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Codebase <a name="codebase"></a>
@@ -59,6 +61,7 @@ The codebase for this project consists of the following files:
 - `training_model.py`: Script for training the model from scratch.
 - `inference_model.py`: Script for performing inference using the pre-trained model.
 - `Codebase.ipynb`: Jupyter Notebook containing the complete code of this project. We encourage you to go through it to understand the work done.
+- `training_dataset.py`: Script for creating an organized dataset.
 
 Feel free to explore and modify the codebase to suit your specific requirements.
 
