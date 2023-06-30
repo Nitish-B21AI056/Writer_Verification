@@ -33,6 +33,7 @@ from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 Training_dataset_path="/content/drive/MyDrive/dataset/Training_Dataset.csv"
 siamese_model_path="/content/drive/MyDrive/dataset/SaraSwati_Writes_Final_Model.pth"
 validation_data_path="/content/drive/MyDrive/dataset/val.csv"
+string_to_concat = "/content/drive/MyDrive/dataset/val/"
 knn_model_path= '/content/drive/MyDrive/dataset/knn_model.pkl'
 
 #Load Training Dataset ---------------------------------------------------------------------------------------------------------------
@@ -268,8 +269,6 @@ val_data=pd.read_csv(validation_data_path)
 val_data_copy = val_data.copy()
 
 # Concatenate string to the start of each value in columns 1 and 2
-string_to_concat = "/content/drive/MyDrive/dataset/val/"
-
 val_data_copy.iloc[:, 0:2] = string_to_concat + val_data_copy.iloc[:, 0:2].astype(str)
 
 val_features = extract_features(net,val_data_copy)
