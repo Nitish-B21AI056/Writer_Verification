@@ -1,5 +1,5 @@
 # NCVPRIPG Writer Verification  
-TEAM: SSWrites
+# TEAM: SSWrites
 Kaggle: [https://www.kaggle.com/nitishbhardwajiitj](https://www.kaggle.com/nitishbhardwajiitj)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
