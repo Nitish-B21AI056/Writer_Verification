@@ -12,7 +12,8 @@ This GitHub repository aims to identify whether a given pair of handwritten text
 3. [Inference Model](#inference-model)
 4. [Model Checkpoints](#model-checkpoints)
 5. [Codebase](#codebase)
-6. [Reference](#reference)
+6. [Requirement.txt](#requirement)
+7. [Reference](#reference)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,10 +63,19 @@ The codebase for this project consists of the following files:
 - `inference_model.py`: Script for performing inference using the pre-trained model.
 - `Codebase.ipynb`: Jupyter Notebook containing the complete code of this project. We encourage you to go through it to understand the work done.
 - `training_dataset.py`: Script for creating an organized dataset.
+- `requirements.txt`: Required packages and dependencies.
 
 Feel free to explore and modify the codebase to suit your specific requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Requirement.txt <a name="requirement"></a>
+To install the required libraries, run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## References <a name="reference"></a>
 
 - Deya, S., Dutta, A., Toledoa, J. I., Ghosha, S. K., Llados, J., & Pal, U. (Year). SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification. _Pattern Recognition Letters_. Retrieved from Journal Homepage:[www.elsevier.com](www.elsevier.com)
