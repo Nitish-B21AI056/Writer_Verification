@@ -34,6 +34,7 @@ from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 siamese_model_path="/content/drive/MyDrive/dataset/SaraSwati_Writes_Final_Model.pth"
 knn_model_path='/content/drive/MyDrive/dataset/knn_model.pkl'
 test_data_path="/content/drive/MyDrive/dataset/test.csv"
+string_to_concat = "/content/drive/MyDrive/dataset/semi_test/"
 path_to_save_submission_file='/content/drive/MyDrive/dataset/SSWrites_Semi_final_Submission.csv'
 
 # Siamses Architectue ---------------------------------------------------------------------------------------------------------------------
@@ -161,7 +162,6 @@ net.load_state_dict(state_dict)
 test_data=pd.read_csv(test_data_path)
 test_data_copy = test_data.copy()
 # Concatenate string to the start of each testue in columns 1 and 2
-string_to_concat = "/content/drive/MyDrive/dataset/semi_test/"
 test_data_copy.iloc[:, 0:2] = string_to_concat + test_data_copy.iloc[:, 0:2].astype(str)
 
 test_features = extract_features(net,test_data_copy)
