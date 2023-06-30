@@ -20,7 +20,7 @@ This GitHub repository aims to identify whether a given pair of handwritten text
 
 The dataset used in this project was made available for the NCVPRIG Competition. However, due to the competition's terms and conditions, the actual dataset cannot be shared. We encourage you to use any other suitable dataset for your project.
 
-If you are working with a dataset that is not well-maintained, such as having folders where each folder contains images of the same writers, you can utilize the `training_dataset.py` code provided in this repository. This code will help you create a properly organized CSV file from your dataset. We also recommend reviewing the 'training_dataset.py' code to gain insights on how to manage and organize your dataset effectively, even in other scenarios where the dataset may not be well-organized.
+If you are working with a dataset that is not well-maintained, such as having folders where each folder contains images of the same writers, you can utilize the `training_dataset.py` code provided in this repository. This code will help you create a properly organized CSV file from your dataset. We also recommend reviewing the `training_dataset.py` code to gain insights on how to manage and organize your dataset effectively, even in other scenarios where the dataset may not be well-organized.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
