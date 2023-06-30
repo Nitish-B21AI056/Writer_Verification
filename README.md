@@ -12,12 +12,15 @@ This GitHub repository aims to identify whether a given pair of handwritten text
 3. [Inference Model](#inference-model)
 4. [Model Checkpoints](#model-checkpoints)
 5. [Codebase](#codebase)
+6.  [Reference](#reference)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Dataset <a name="dataset"></a>
 
 The dataset used in this project was made available for the NCVPRIG Competition. However, due to the competition's terms and conditions, the actual dataset cannot be shared. We encourage you to use any other suitable dataset for your project.
+
+If you are working with a dataset that is not well-maintained, such as having folders where each folder contains images of the same writers, you can utilize the `training_dataset.py` code provided in this repository. This code will help you create a properly organized CSV file from your dataset. We also recommend reviewing the 'training_dataset.py' code to gain insights on how to manage and organize your dataset effectively, even in other scenarios where the dataset may not be well-organized.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -54,8 +57,13 @@ If you want to use the pre-trained model, download the models from the shared Go
 The codebase for this project consists of the following files:
 
 - `training_model.py`: Script for training the model from scratch.
-- `inference.py`: Script for performing inference using the pre-trained model.
+- `inference_model.py`: Script for performing inference using the pre-trained model.
 - `Codebase.ipynb`: Jupyter Notebook containing the complete code of this project. We encourage you to go through it to understand the work done.
 
 Feel free to explore and modify the codebase to suit your specific requirements.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## References <a name="reference"></a>
+
+- Deya, S., Dutta, A., Toledoa, J. I., Ghosha, S. K., Llados, J., & Pal, U. (Year). SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification. _Pattern Recognition Letters_. Retrieved from [Journal Homepage](www.elsevier.com)
 
