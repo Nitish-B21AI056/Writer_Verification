@@ -50,7 +50,7 @@ Pre-trained models can be found in the following Google Drive folder:
 
 If you want to use the pre-trained model, download the models from the shared Google Drive folder and save them to your local location. Additionally, update the path location of the model in the code accordingly.
 
-In this project, we employed a Siamese Network for feature extraction, and these features were subsequently utilized by a KNN model for classification. The training_model.py and inference_model.py solely employ the KNN approach. However, we also explored alternative classification models such as SVC, AdaBoost, and ensemble methods. If you wish to examine predictions using these models, simply copy and paste their respective code snippets from the Codebase.ipynb file.
+In this project, we employed a Siamese Network for feature extraction, and these features were subsequently utilized by a KNN model for classification. The `training_model.py` and `inference_model.py` solely employ the KNN approach. However, we also explored alternative classification models such as SVC, AdaBoost, and ensemble methods. If you wish to examine predictions using these models, simply copy and paste their respective code snippets from the Codebase.ipynb file.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
