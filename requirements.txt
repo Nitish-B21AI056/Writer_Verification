@@ -1,12 +1,10 @@
-os
-random
 pandas
 numpy
 matplotlib
-cv2
+opencv-python
 torch
 torchvision
-PIL
+Pillow
 sklearn
 joblib
 scipy
