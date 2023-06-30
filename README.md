@@ -65,5 +65,5 @@ Feel free to explore and modify the codebase to suit your specific requirements.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## References <a name="reference"></a>
 
-- Deya, S., Dutta, A., Toledoa, J. I., Ghosha, S. K., Llados, J., & Pal, U. (Year). SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification. _Pattern Recognition Letters_. Retrieved from [Journal Homepage](www.elsevier.com)
+- Deya, S., Dutta, A., Toledoa, J. I., Ghosha, S. K., Llados, J., & Pal, U. (Year). SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification. _Pattern Recognition Letters_. Retrieved from Journal Homepage:[www.elsevier.com](www.elsevier.com)
 
