@@ -38,7 +38,7 @@ knn_model_path= '/content/drive/MyDrive/dataset/knn_model.pkl'
 
 #Load Training Dataset ---------------------------------------------------------------------------------------------------------------
 data=pd.read_csv(Training_dataset_path)
-train_data = data.iloc[:1600,:]
+train_data = data.iloc[:16000,:]
 eval_data = data.iloc[16000:,:] #This is a part of training_data only which we have used for early stopping
 #Building Siamese Network Architecture -----------------------------------------------------------------------------------------------
 class SiameseNetwork(nn.Module):
