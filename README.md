@@ -72,13 +72,15 @@ The codebase for this project consists of the following files:
 Feel free to explore and modify the codebase to suit your specific requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Architecture <a name="archtecture></a>
+## Architecture <a name="architecture></a>
 To understand the model used, see the architecture of our model.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Loss Visualization <a name="loss_visualization></a>
 The training and validation loss graph is shown
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Requirement.txt <a name="requirement"></a>
 To install the required libraries, run the following command in your terminal:
 
