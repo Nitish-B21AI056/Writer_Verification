@@ -72,12 +72,14 @@ The codebase for this project consists of the following files:
 Feel free to explore and modify the codebase to suit your specific requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Architecture <a name="architecture"></a>
 To understand the model used, see the architecture of our model.
+`Architecture.png`
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Loss Visualization <a name="loss_visualization"></a>
-The training and validation loss graph is shown
+The training and validation loss graph is shown in `Training&Testing_Loss_Visualization.ipynb`
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
