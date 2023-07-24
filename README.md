@@ -90,6 +90,11 @@ To install the required libraries, run the following command in your terminal:
 pip install -r requirements.txt
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Deployment <a name="deployment"></a>
+This folder contains the model deployment source code deployed locally using Flask. We encourage to use it for deploying your model.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## References <a name="reference"></a>
 
